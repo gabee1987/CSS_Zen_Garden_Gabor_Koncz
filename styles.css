@@ -1,27 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
-    a:focus {
-        outline: thin dotted;
-    }
-    a:active, a:hover {
-        outline: 0;
-    }
-}
-
-body {
     background-color: lightblue;
-}
-
-body {
     background: url("images/body-bg-2.jpg") repeat;
     margin-top: 100px;
     margin-bottom: 50px;
     color: #9d9d9d;
-}
-
-body {
     display: block;
     margin: 8px;
+    
+}
+
+
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0;
 }
 
 .page-wrapper {
@@ -131,7 +125,7 @@ body {
 
 .main .explanation {
     background: #f8f6ee;
-    background-size: 100%;
+    background-size: 80%;
     height: 5px;
     margin: 0;
     padding-top: 450px;
@@ -186,9 +180,38 @@ body {
 }
 
 .main .participation a {
-  color: #9d9d9d;
-  border-bottom: 1px solid #ffffff;
+    color: #9d9d9d;
+    border-bottom: 1px solid #ffffff;
 }
 .main .participation a:hover {
-  color:  #c85b5f;
+    color:  #c85b5f;
+}
+
+.main .benefits {
+    background: #c3d3b2;
+    background-size: 100%;
+    height: 120px;
+    margin: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.main .benefits h3 {
+    font-size: 150%;
+    color: #605b61;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.main .benefits p {
+    font-size: 100%;
+    font-weight: inherit; 
+    color: #716a72;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
