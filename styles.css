@@ -1,0 +1,194 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    a:focus {
+        outline: thin dotted;
+    }
+    a:active, a:hover {
+        outline: 0;
+    }
+}
+
+body {
+    background-color: lightblue;
+}
+
+body {
+    background: url("images/body-bg-2.jpg") repeat;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #9d9d9d;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.page-wrapper {
+    width: 1170px;
+}
+
+.page-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+}
+
+.intro {
+    display: inline-block;
+}
+
+.intro {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    background: #f8f6ee;
+    border-radius: 4px 4px 0 0;
+}
+
+.intro h1 {
+    background: #f8f6ee url("images/sign.png");
+    border-bottom: 1px solid #eaeaea;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 30%;
+    padding: 250px 0px 0px 0px;
+    font-size: 50px;
+    line-height: 52px;
+    color: #c85b5f;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+}
+
+.intro h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #716a72;
+}
+
+.intro .summary {
+    font-size: 100%;
+    font-variant-position: 2px 0px 0px 0px;
+    color: #716a72;
+    background: #f8f6ee url("images/zen-candles_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+}
+
+.intro .summary p:last-child {
+    align-content: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.intro .summary p {
+    align-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: -70px;
+    font-size: 18px;
+}
+
+.intro .summary a {
+  color: #716a72;
+  border-bottom: 1px solid #ffffff;
+}
+.intro .summary a:hover {
+  color:  #c85b5f;
+}
+
+.intro .preamble h3 {
+    font-size: 150%;
+    color: #605b61;
+    text-transform: uppercase;
+}
+
+.intro .preamble {
+    font-size: 100%;
+    color: #716a72;
+    background: #e0db9b;
+    background-size: 100%;
+    height: 5px;
+    padding-top: 10px;
+    paddign-right: 0px;
+    padding-bottom: 220px;
+    padding-left: 0px;
+}
+
+.intro .preamble p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.main .explanation {
+    background: #f8f6ee;
+    background-size: 100%;
+    height: 5px;
+    margin: 0;
+    padding-top: 450px;
+    padding-right: 585px;
+    padding-bottom: 0px;
+    padding-left: 20px;   
+}
+
+.main .explanation h3 {
+    font-size: 150%;
+    color: #c85b5f;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 100px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    text-align: right;
+    border-bottom: 1px solid #eaeaea;    
+}
+
+.main .explanation p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 30px;
+    text-align: right;    
+}
+
+.main .participation h3 {
+    font-size: 150%;
+    color: #c85b5f;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+    margin-top: -405px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin-left: 600px;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;  
+}
+
+.main .participation p {
+    color: #9d9d9d;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin-left: 600px;
+    text-align: left; 
+}
+
+.main .participation a {
+  color: #9d9d9d;
+  border-bottom: 1px solid #ffffff;
+}
+.main .participation a:hover {
+  color:  #c85b5f;
+}
