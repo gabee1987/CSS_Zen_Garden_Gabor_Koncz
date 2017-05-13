@@ -10,12 +10,18 @@ body {
     
 }
 
-
-a:focus {
-    outline: thin dotted;
+a {
+    color: #716a72;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
-a:active, a:hover {
-    outline: 0;
+a:hover {
+    color: #c85b5f;
+    border-bottom: 1px #c85b5f;
 }
 
 .page-wrapper {
@@ -91,14 +97,6 @@ a:active, a:hover {
     font-size: 18px;
 }
 
-.intro .summary a {
-  color: #716a72;
-  border-bottom: 1px solid #ffffff;
-}
-.intro .summary a:hover {
-  color:  #c85b5f;
-}
-
 .intro .preamble h3 {
     font-size: 150%;
     color: #605b61;
@@ -131,7 +129,7 @@ a:active, a:hover {
     padding-top: 450px;
     padding-right: 585px;
     padding-bottom: 0px;
-    padding-left: 20px;   
+    padding-left: 20px;  
 }
 
 .main .explanation h3 {
@@ -179,14 +177,6 @@ a:active, a:hover {
     text-align: left; 
 }
 
-.main .participation a {
-    color: #9d9d9d;
-    border-bottom: 1px solid #ffffff;
-}
-.main .participation a:hover {
-    color:  #c85b5f;
-}
-
 .main .benefits {
     background: #c3d3b2;
     background-size: 100%;
@@ -214,4 +204,60 @@ a:active, a:hover {
     color: #716a72;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+.main .requirements {
+    background: #f8f6ee;
+    background-size: 80%;
+    height: 80px;
+    margin: 0;
+    padding-top: 450px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;   
+}
+
+.main .requirements h3 {
+    font-size: 150%;
+    color: #c85b5f;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;    
+}
+
+.main .requirements p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;    
+}
+
+.main footer {
+    position: absolute;
+    left: 1476px;
+    top: 2210px;
+    -webkit-transform: rotate(-90deg);
+}
+
+.main footer a {
+    font-size: 80%;
+    font-weight: inherit; 
+    color: #f8f6ee;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.main footer a:hover {
+    color: #c85b5f;
+    border-bottom: 1px #c85b5f;
 }
