@@ -1,3 +1,15 @@
+/* 
+==========================================================================
+css Zen Garden submission 221 - 'Zen-style' by Gabor Koncz
+==========================================================================
+*/
+
+/* 
+==========================================================================
+Globals
+==========================================================================
+*/
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: lightblue;
@@ -7,6 +19,7 @@ body {
     color: #9d9d9d;
     display: block;
     margin: 8px;
+    background-attachment: fixed;
     
 }
 
@@ -24,6 +37,12 @@ a:hover {
     border-bottom: 1px #c85b5f;
 }
 
+/* 
+==========================================================================
+Body
+==========================================================================
+*/
+
 .page-wrapper {
     width: 1170px;
 }
@@ -33,6 +52,12 @@ a:hover {
     margin-left: auto;
     *zoom: 1;
 }
+
+/* 
+==========================================================================
+Title
+==========================================================================
+*/
 
 .intro {
     display: inline-block;
@@ -97,6 +122,12 @@ a:hover {
     font-size: 18px;
 }
 
+/* 
+==========================================================================
+Preamble
+==========================================================================
+*/
+
 .intro .preamble h3 {
     font-size: 150%;
     color: #605b61;
@@ -120,6 +151,12 @@ a:hover {
     margin-right: 20px;
     margin-bottom: 0px;
 }
+
+/* 
+==========================================================================
+Explanation
+==========================================================================
+*/
 
 .main .explanation {
     background: #f8f6ee;
@@ -154,6 +191,11 @@ a:hover {
     text-align: right;    
 }
 
+/* 
+==========================================================================
+Participation
+==========================================================================
+*/
 .main .participation h3 {
     font-size: 150%;
     color: #c85b5f;
@@ -176,6 +218,12 @@ a:hover {
     margin-left: 600px;
     text-align: left; 
 }
+
+/* 
+==========================================================================
+Benefits
+==========================================================================
+*/
 
 .main .benefits {
     background: #c3d3b2;
@@ -205,6 +253,12 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+/* 
+==========================================================================
+Requirements
+==========================================================================
+*/
 
 .main .requirements {
     background: #f8f6ee;
@@ -239,6 +293,12 @@ a:hover {
     text-align: center;    
 }
 
+/* 
+==========================================================================
+Footer
+==========================================================================
+*/
+
 .main footer {
     position: absolute;
     left: 1476px;
@@ -262,6 +322,12 @@ a:hover {
     color: #c85b5f;
     border-bottom: 1px #c85b5f;
 }
+
+/* 
+==========================================================================
+Design-selection
+==========================================================================
+*/
 
 .sidebar .design-selection {
     background: #333333;
@@ -388,3 +454,124 @@ a:hover {
   font-size: 900%;
 }
 
+/* 
+==========================================================================
+Design-archives
+==========================================================================
+*/
+
+.sidebar .design-archives {
+    background: #718b98;
+    background-size: 80%;
+    height: 0px;
+    margin: 0;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;   
+}
+
+.sidebar .design-archives h3 {
+    font-size: 150%;
+    color: #f8f6ee;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+    margin-top: -90px;
+    margin-bottom: 0px;
+    margin-right: 900px;
+    margin-left: 0px;
+    text-align: left;   
+}
+
+.sidebar .design-archives ul {
+    margin-top: -39px;
+    list-style: none;
+    padding-left: 150px;
+    width: 1170px;
+    height: 100px;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(2, 500px);
+}
+
+.sidebar .design-archives li {
+    text-align: right; 
+    padding-top: 70px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sidebar .design-archives nav ul li:nth-child(1) {
+    background: #718b98;
+}
+
+.sidebar .design-archives nav ul li:nth-child(2) {
+    background: #677e8a;
+}
+
+.sidebar .design-archives a {
+    color: #f8f6ee;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.sidebar .design-archives a:hover {
+    color: #c85b5f;
+    border-bottom: 1px #c85b5f;
+}
+
+/* 
+==========================================================================
+Zen-recources
+==========================================================================
+*/
+
+.sidebar .zen-resources {
+    background: #40474a;
+    background-size: 80%;
+    height: 100px;
+    margin: 0;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    border-radius: 0px 0px 4px 4px;   
+}
+
+.sidebar .zen-resources h3 {
+    font-size: 150%;
+    color: #f8f6ee;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+    margin-top: -90px;
+    margin-bottom: 0px;
+    margin-right: 900px;
+    margin-left: 0px;
+    text-align: left;   
+}
+
+.sidebar .zen-resources ul {
+    list-style: none;
+}
+
+.sidebar .zen-resources a {
+    color: #f8f6ee;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.sidebar .zen-resources a:hover {
+    color: #c85b5f;
+    border-bottom: 1px #c85b5f;
+}
